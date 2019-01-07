@@ -17,7 +17,7 @@
 		var colorScale = d3.scaleOrdinal(d3.schemeCategory20b);
 		var colorScale2 = d3.scaleLinear().range(["#99f1cb", "#3d775e"]);
 
-var tooltip = d3.select("#china").append("div").classed("tooltip", true);
+var tooltip = d3.select("#china").append("div").classed("d3tooltip", true);
 
 
 
