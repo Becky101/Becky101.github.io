@@ -1,6 +1,6 @@
 
-		var width = 800;
-		var height = 400;
+		var width = 600;
+		var height = 300;
 
 		var svg = d3.select("#china")
 					.append("svg") 
@@ -66,7 +66,7 @@ var tooltip = d3.select("#china").append("div").classed("tooltip", true);
 				return g.zongshu;
 			}))
 
-			projection.fitSize([800, 400], china);
+			projection.fitSize([600, 300], china);
 
 			var china = china_g.selectAll("path")
 				.data(china.features);
@@ -86,10 +86,10 @@ var tooltip = d3.select("#china").append("div").classed("tooltip", true);
 
 			svg.append("g")
 				.attr("class", "legendLinear")
-				.attr("transform", "translate(20,20)");
+				.attr("transform", "translate(0,20)");
 
 			var legendLinear = d3.legendColor()
-				.shapeWidth(30)
+				.shapeWidth(20)
 				.orient("vertical")
 				.labelFormat(d3.format(".0f"))
 				.scale(linear);

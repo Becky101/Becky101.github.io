@@ -26,8 +26,9 @@ body {
 			}
 
  .tooltip {
-              position: absolute;
-              z-index: 10;
+             
+              position: inherit;
+              z-index: 10001;
             }
 
             .tooltip p {
@@ -39,5 +40,7 @@ body {
               border: gray 1px solid;
               padding: 2px;
               max-width: 180px;
+              z-index: 10002;
           }
+
       </style>
