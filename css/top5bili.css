@@ -1,0 +1,51 @@
+svg {
+				background-color: white;
+				margin: 0 auto;
+			}
+
+			p {
+				font-family: 'Slabo 27px', serif;
+				margin-right: 650px;
+
+			}
+
+			rect {
+				fill: #3d785e;
+				stroke: #f8e7f0;
+				stroke-width: 2;
+				
+			}
+
+			rect:hover {
+				fill: #3d665e;
+			}
+
+			.axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+
+			.tooltip_qiuyuanbili {
+                position: absolute;
+                z-index: 10;
+            }
+
+    		.tooltip_qiuyuanbili p {
+              background-color: white;
+              color:#14a778;
+              border-radius: 6px;
+              box-shadow: 2px 2px 2px #d9eee6;
+             
+              border: gray 1px solid;
+              padding: 2px;
+        
+              z-index: 10002;
+              font-size: 13px;
+            }
